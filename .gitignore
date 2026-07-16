@@ -1,0 +1,31 @@
+# --- Python Internals ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+env.bak/
+.env
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Project Specifics ---
+# Do NOT push the dataset
+hd_dataset/
+clothing-dataset.zip
+
+# --- Security: Sensitive Credentials ---
+kaggle.json
+.kaggle/
+
+# --- Output Artifacts ---
+confusion_matrix.png
